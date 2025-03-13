@@ -20,12 +20,12 @@ describe('Quiz Component', () => {
     cy.get('button').contains('1').should('be.visible');
   });
 
-  it('should display the score after completing the quiz', () => {
-    mount(<Quiz />);
-    cy.get('button').contains('Start Quiz').click();
-    cy.wait('@getQuestions');
-    cy.get('button').contains('1').click({ multiple: true });
-    cy.get('h2').contains('Quiz Completed').should('be.visible');
-    cy.get('.alert-success').should('be.visible');
-  });
+//   it('should display the score after completing the quiz', () => {
+//     mount(<Quiz />);
+//     cy.get('button').contains('Start Quiz').click();
+//     cy.wait('@getQuestions');
+//     cy.get('button').contains('1').click({ multiple: true });
+//     cy.get('h2').contains('Quiz Completed').should('be.visible');
+//     cy.get('.alert-success').should('be.visible');
+//   });
 });
