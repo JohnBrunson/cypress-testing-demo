@@ -2,7 +2,7 @@
 
 ## Description
 
-The idea behind this was to simply get a chance to experiment with cypress testing. This is a very simple app with a very simple set of tests. You can see a simple set of tests [here](https://drive.google.com/file/d/1zn35R6uSDyMkrItrcepMlC4hrd2DTnkW/view?usp=sharing) In doing this, my hope is to provide a decent basis for writing tests.
+The idea behind this was to simply get a chance to experiment with cypress testing. This is a very simple app with a very simple set of tests. You can see the simple set of tests [here](https://drive.google.com/file/d/1zn35R6uSDyMkrItrcepMlC4hrd2DTnkW/view?usp=sharing). In doing this, my hope is to provide a decent basis for writing tests.
 
 ## Installation
 
